@@ -1,4 +1,4 @@
--- CREATE TABLE kimia_farma.tabel_analisa as
+CREATE TABLE kimia_farma.tabel_analisa as
 SELECT A.transaction_id, A.date, A.branch_id, B.branch_name, B.kota, B.provinsi, B.rating as rating_cabang, A.customer_name, A.product_id, C.product_name, A.price 
 ,A.discount_percentage,
 
